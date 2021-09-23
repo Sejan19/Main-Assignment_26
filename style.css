@@ -1,0 +1,195 @@
+.header-div{
+    margin-bottom: 140px;
+}
+.header-left h6 {
+    font-family: 'spartan', sans-serif;
+    font-size: 11px;
+    color: #8271ed;
+    margin-bottom: 9px;
+}
+.header-left h2 {
+    line-height: 32px;
+    font-family: 'spartan', sans-serif;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    margin-top: 4px;
+}
+.header-left h2::after {
+    content: "";
+    position: absolute;
+    top: 102px;
+    left: 0;
+    height: 2px;
+    width: 38px;
+    background: #8271ed;
+}
+.header-left p{
+    font-family: 'spartan', sans-serif;
+    font-size: 11px;
+    color: rgb(122, 116, 116);
+}
+
+.header-sec{
+    display: flex;
+    width: 550px;
+    flex-wrap: wrap;
+}
+.header-sec img {
+    width: 183px;
+    height: 105px;
+    border: 1px solid #ddd;
+    padding: 18px 30px;
+    opacity: .4;
+    transition: .5s;
+}
+.header-sec img:hover{
+    opacity: 1;
+    background: #f0f3f7;
+    cursor: pointer;
+}
+.bnr-sec h6{
+    font-family: 'spartan', sans-serif;
+    font-size: 12px;
+    color: #8271ed;
+    margin-bottom: 9px;
+}
+.bnr-sec h2{
+    line-height: 32px;
+    font-family: 'spartan', sans-serif;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    margin-top: 4px;
+}
+.bnr-sec h2::after {
+    content: "";
+    position: absolute;
+    top: 47px;
+    left: 117px;
+    height: 3px;
+    width: 38px;
+    background: #8271ed;
+}
+.bnr-sec p{
+    font-family: 'spartan', sans-serif;
+    font-size: 12px;
+    color: rgb(122, 116, 116);
+    margin-top: 7px;
+}
+.crdbrdr{
+    border: none !important;
+    background: rgb(253, 253, 253);
+}
+.cardtext{}
+.cardtext h4 {
+    font-family: 'spartan', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e242b;
+    margin-top: 15px;
+}
+.cardtext p{
+    font-family: 'spartan', sans-serif;
+    font-size: 12px;
+    color: rgb(122, 116, 116);
+    padding-top: 10px;
+}
+.authorcls{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    transition: .5s;
+    position: relative;
+}
+.button {
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+    height: 39px;
+    line-height: 40px;
+    width: 148px;
+    background: #3763eb;
+    font-family: 'spartan', sans-serif;
+    text-align: center;
+    border-radius: 34px;
+    margin-left: 140px;
+    margin-top: -49px;
+    transition: .4s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.button:hover .authorcls{
+    margin-left: 110px;
+    color: #3763eb;
+    cursor: pointer;
+}
+.footer{
+    background: #081828;
+}
+.lfwflogo{
+    width: 125px;
+    height: auto;
+}
+
+.footer-left p {
+    color: #ffff;
+    font-size: 14px;
+    margin-top: 32px;
+    line-height: 26px;
+    font-family: 'spartan', sans-serif;
+}
+.icon-sec {
+    margin-left: -14px;
+}
+.icon-sec i {
+    margin-left: 27px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 14px;
+    transition: .4s;
+}
+.icon-sec i:hover{
+    color: #3763eb;
+}
+.fastul{}
+.ulheader {
+    color: #fff !important;
+    padding-left: 10px !important;
+    padding-top: 2px !important;
+    border-left: 4px solid #3763eb !important;
+    font-family: 'spartan', sans-serif !important;
+    font-size: 19px !important;
+    line-height: 53px !important;
+    font-weight: 600 !important;
+}
+.fastul li{
+    list-style: none;
+    margin-bottom: 17px;
+}
+.fastul li a{
+    text-decoration: none;
+    color: #8e94a1;
+    font-size: 14px;
+    font-family: 'spartan', sans-serif;
+}
+.brdrbtm{
+    border-bottom: 1px solid #4b4f57;
+    padding-bottom: 65px;
+}
+.footerdesign{
+    color: #fff;
+    margin-top: 30px;
+    display: inline-block;
+    font-family: 'spartan', sans-serif;
+    font-size: 13px;
+
+}
+.footerdesign a{
+    text-decoration: none;
+    color: #3763eb !important;
+}
